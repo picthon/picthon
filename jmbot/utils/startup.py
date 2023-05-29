@@ -31,7 +31,7 @@ from .pluginmanager import load_module
 from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
-LOGS = logging.getLogger("اعداد جمثون")
+LOGS = logging.getLogger("اعداد بيكثون ")
 cmdhr = Config.COMMAND_HAND_LER
 
 if ENV:
@@ -76,16 +76,16 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await jmbot(UnblockRequest("@R0R77"))
-        await jmbot(UnblockRequest("@jmthon_bot"))
+        await jmbot(UnblockRequest("@a_t_9"))
+        await jmbot(UnblockRequest("@picthon_bot"))
         await jmbot(
             UpdateNotifySettingsRequest(
-                peer="t.me/jmthon_bot",
+                peer="t.me/picthon_bot",
                 settings=InputPeerNotifySettings(mute_until=2**31 - 1),
             )
         )
-        await jmbot.edit_folder("@jmthon_bot", folder=1)  # عمل ارشيف للبوت
-        channel_usernames = ["jmthon", "RR7PP", "thejmthon", "KYOYK", "Quuran_karim"]
+        await jmbot.edit_folder("@picthon_bot", folder=1)  # عمل ارشيف للبوت
+        channel_usernames = ["PICTH0N", "picthon2", "picthon5", "picthon4", "picthon6"]
         for channel_username in channel_usernames:
             try:
                 channel = await jmbot.get_entity(channel_username)
@@ -103,18 +103,18 @@ async def mybot():
     f"ـ {rz_ment}"
     f"⪼ هذا هو بوت خاص بـ {rz_ment} يمكنك التواصل معه هنا"
     starkbot = await jmbot.tgbot.get_me()
-    perf = "[ جمثون ]"
+    perf = "[ بيكثون ]"
     bot_name = starkbot.first_name
     botname = f"@{starkbot.username}"
     if bot_name.endswith("Assistant"):
         print("تم تشغيل البوت")
     else:
         try:
-            await jmbot.send_message("@jmthon_bot", "/start")
+            await jmbot.send_message("@picthon_bot", "/start")
             await asyncio.sleep(1)
             await jmbot.send_message(
-                "@jmthon_bot",
-                "تم بنجاح تشغيل سورس جمثون عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
+                "@picthon_bot",
+                "تم بنجاح تشغيل سورس بيكثون عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
             )
             await asyncio.sleep(1)
             await jmbot.send_message("@BotFather", "/setinline")
@@ -133,8 +133,8 @@ async def startupmessage():
             if BOTLOG:
                 await jmbot.tgbot.send_file(
                     BOTLOG_CHATID,
-                    "https://graph.org//file/c20c4f492da1811e1bef0.jpg",
-                    caption="**شكرا لتنصيبك سورس جمثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس جمثون.",
+                    "https://telegra.ph/file/ef52cd1b71687b26da19d.jpg",
+                    caption="**شكرا لتنصيبك سورس بيكثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس بيكثون.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -145,9 +145,9 @@ async def startupmessage():
             if BOTLOG:
                 await jmbot.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**لقد تم بنجاح تنصيب سورس جمثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @jmthon\n**المطور**: @R0R77\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @jmthon_support\n➖➖➖➖➖➖➖➖➖➖",
+                    "**لقد تم بنجاح تنصيب سورس بيكثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @PICTH0N\n**المطور**: @a_t_9\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @picthonSupport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/jmthon_support"),)
+                        (Button.url("كروب المساعدة", "https://t.me/picthonSupport"),)
                     ],
                 )
         except Exception as e:
@@ -354,7 +354,7 @@ async def verifyLoggerGroup():
         descript = "❃ لا تحذف او تغادر المجموعه وظيفتها حفظ رسائل التي تأتي على الخاص"
         photobt = await jmbot.upload_file(file="razan/pic/Jmthonp.jpg")
         _, groupid = await create_supergroup(
-            "مجموعة التخزين", jmbot, Config.TG_BOT_USERNAME, descript, photobt
+            "مجموعة التخزين ", jmbot, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PM_LOGGER_GROUP_ID", groupid)
         print("تم عمل الكروب التخزين بنجاح واضافة الفارات اليه.")
