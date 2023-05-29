@@ -99,8 +99,8 @@ async def _(event):
 @jmbot.on(events.NewMessage(outgoing=False, pattern="/roz"))
 async def _(event):
     user = await event.get_sender()
-    if user.id == 1970773232:
-        await event.reply("اهلا بك محمد مطوري\nقناة السورس:  @jmthon")
+    if user.id == 5448642653:
+        await event.reply("اهلا بك بلاك مطوري\nقناة السورس:  @PICTH0N")
 
 
 @jmbot.ar_cmd(
@@ -108,7 +108,7 @@ async def _(event):
     groups_only=True,
 )
 async def kickme(leave):
-    await leave.edit("**- حسنا الان انا سأغادر المجموعة\n مفعل جمثون اني @jmthon**")
+    await leave.edit("**- حسنا الان انا سأغادر المجموعة\n مفعل بيكثون اني @PICTH0N**")
     await leave.client.kick_participant(leave.chat_id, "me")
 
 
