@@ -19,7 +19,7 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("سورس جمثون")
+LOGS = logging.getLogger("سورس بيكثون")
 
 cmdhr = Config.COMMAND_HAND_LER
 
@@ -51,7 +51,7 @@ except Exception as meo:
 
 async def startup_process():
     if jmbot.uid in blacklisted_users:
-        LOGS.info("انت لا يمكنك تنصيب سورس جمثون عزيزي دي")
+        LOGS.info("انت لا يمكنك تنصيب سورس بيكثون عزيزي دي")
         return
     if not gvarstatus("TNSEEB"):
         try:
@@ -62,7 +62,7 @@ async def startup_process():
             LOGS.info("تم انتهاء عملية التنصيب بنجاح")
             LOGS.info(
                 f"لمعرفة اوامر السورس ارسل {cmdhr}الاوامر\
-                \nمجموعة قناة السورس  https://t.me/jmthon_support"
+                \nمجموعة قناة السورس  https://t.me/picthonSupport"
             )
             LOGS.info("============================================================")
             await verifyLoggerGroup()
@@ -75,9 +75,9 @@ async def startup_process():
             LOGS.info(str(e))
             return
     else:
-        LOGS.info("انت لا يمكنك تنصيب سورس جمثون عزيزي دي")
-        LOGS.info("انت لا يمكنك تنصيب سورس جمثون عزيزي دي")
-        LOGS.info("انت لا يمكنك تنصيب سورس جمثون عزيزي دي")
+        LOGS.info("انت لا يمكنك تنصيب سورس بيكثون عزيزي دي")
+        LOGS.info("انت لا يمكنك تنصيب سورس بيكثون عزيزي دي")
+        LOGS.info("انت لا يمكنك تنصيب سورس بيكثون عزيزي دي")
 
 
 jmbot.loop.run_until_complete(startup_process())
