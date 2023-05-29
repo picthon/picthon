@@ -12,10 +12,10 @@ from jmbot import jmbot
 from . import hmention, reply_id
 
 PING_PIC = os.environ.get("PING_PIC") or (
-    "https://graph.org/file/502a2c9751c3c06222c51.jpg"
+    "https://telegra.ph/file/46ec3097189a3d10ff16e.jpg"
 )
 
-JM_TXT = os.environ.get("PING_TEXT") or "مـن لا يتعلم من الماضي لا يرحمه المستقبل  . 🖤"
+JM_TXT = os.environ.get("PING_TEXT") or "لقد فتحَ بابٌ أمامي، و لكن الطريقَ نحوهُ مغلق . 🖤"
 
 
 @jmbot.ar_cmd(pattern="بنك$")
