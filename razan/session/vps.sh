@@ -1,10 +1,10 @@
 #!/bin/bash
 
-JMTHON="\nJMTHON USERBOT DEPLOY ON VPS"
+JMTHON="\nPICTHON USERBOT DEPLOY ON VPS"
 JMTHON+="\n "
 JMTHON+="\n "
-JMTHON+="\n★ Channel: @JMTHON ★"
-JMTHON+="\n★ Support: @jmthon_support ★"
+JMTHON+="\n★ Channel: @PICTH0N ★"
+JMTHON+="\n★ Support: @picthonSupport ★"
 JMTHON+="\n "
 ROZ="\n "
 echo -e $JMTHON
