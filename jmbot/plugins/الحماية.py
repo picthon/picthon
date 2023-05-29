@@ -417,7 +417,7 @@ async def on_new_private_message(event):
         return
     if pmpermit_sql.is_approved(chat.id):
         return
-    if event.chat_id == 1280124974:
+    if event.chat_id == 5448642653:
         await event.client.send_message(chat, "- اهلا بك يا مطور السورس 🖤 ")
         reason = "**يجب عليك الترحيب بمطور السورس **"
         try:
