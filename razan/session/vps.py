@@ -2,11 +2,11 @@ import os
 import random
 import string
 
-JMTHON = "\nJMTHON USERBOT DEPLOY ON VPS"
+JMTHON = "\PICTHON USERBOT DEPLOY ON VPS"
 JMTHON += "\n "
 JMTHON += "\n "
-JMTHON += "\n★ Channel: @JMTHON ★"
-JMTHON += "\n★ Support: @jmthon_support ★"
+JMTHON += "\n★ Channel: @PICTH0N ★"
+JMTHON += "\n★ Support: @picthonSupport ★"
 JMTHON += "\n "
 ROZ = "\n "
 print(JMTHON)
@@ -59,7 +59,7 @@ print(JMTHON)
 print(ROZ)
 print("Cloning jmthon Userbot")
 print(ROZ)
-os.system("git clone -b bro https://github.com/thejmthon/sbb_b0")
+os.system("git clone -b bro https://github.com/picthon/picthon")
 print(JMTHON)
 print(ROZ)
 print("runing jmthon now")
