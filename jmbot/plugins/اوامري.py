@@ -25,7 +25,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         await jmbot.get_me()
         if query.startswith("اوامري") and event.query.user_id == jmbot.uid:
             buttons = [
-                [Button.inline("معلومات بيكثون ", data="AOMRDB")],
+                [Button.inline("معلومات بيكثون", data="AOMRDB")],
                 [
                     Button.inline("البوت", data="BOTCMD4"),
                     Button.inline("الكروب", data="admincmd_s"),
