@@ -72,13 +72,13 @@
 
 <p align="center">
 
-    <img src="https://www.gnu.org/graphics/gplv3-or-later.png" alt="jmthon License">
+    <img src="https://www.gnu.org/graphics/gplv3-or-later.png" alt="picthon License">
 
 </p>
 
 <h4 align="center">
 
-    Copyright (C) 2022 <a href="https://github.com/thejmthon">JMTHON</a>
+    Copyright (C) 2022 <a href="https://github.com/picthon">PICTHON</a>
 
 </h4>
 
