@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/0a1a1689b01877a0e35ab.jpg" alt="The-HellBot">
 </p>
 <h1 align="center">
-  <b> jmthon userbot | سورس بيكثون</b>
+  <b> picthon userbot | سورس بيكثون</b>
 </h1>
 
 <h3 align="center">
