@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/1d24af20a3f16919a2dda.jpg" alt="The-HellBot">
+  <img src="https://telegra.ph/file/0a1a1689b01877a0e35ab.jpg" alt="The-HellBot">
 </p>
 <h1 align="center">
   <b> jmthon userbot | سورس بيكثون</b>
@@ -25,44 +25,7 @@
 
 - [![Deploy](https://www.herokucdn.com/deploy/button.svg)]([https://heroku.com/deploy](https://dashboard.heroku.com/new?template=https://github.com/picthon/temp))
 
-------
-
- 
-
-- `sudo apt update && sudo apt upgrade -y`
-
-- `sudo apt install --no-install-recommends -y curl git libffi-dev libjpeg-dev libwebp-dev python3-lxml python3-psycopg2 libpq-dev libcurl4-openssl-dev libxml2-dev libxslt1-dev python* نص* سيكون شكل قاعده البيانات كـالتالي و تبدل كلمة pass مع الباسوورد الذي وضعته وكلمة jmthon مع اسم القاعدة التي وضعتها 
-
-- ` postgresql://postgres:pass@localhost:5432/jmthon`
-
-- `git clone https://github.com/thejmthon/jmbot` 
-
-- `cd jmbot0`
-
-- `sudo apt install virtualenv`
-
-- `sudo apt install nano`
-
-- `mv exampleconfig.py config.py`
-
-- `nano config.py`
-
-- `sudo apt install screen`
-
-- `screen -S jmthon`
-
-- `virtualenv venv`
-
-- `source venv/bin/activate`
-
-- `pip3 install -r requirements.txt`
-
-- `python3 -m jmbot`
-
-* نقوم بالضغط على CTRL+A بعدها نضغط على CTRL+D
-
- 
-
+  
 ------
 
 ## الفارات
