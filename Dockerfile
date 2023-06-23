@@ -1,6 +1,6 @@
 FROM thejmthon/jmbot:slim-buster
 
-RUN git clone https://github.com/picthon/picthon.git /root/picthon
+RUN git clone https://github.com/picthon/picthon.git /root/jmub
 
 WORKDIR /root/picthon
 
