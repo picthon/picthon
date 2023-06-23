@@ -1,1 +1,1 @@
-python3 -m picthon
+python3 -m pic
