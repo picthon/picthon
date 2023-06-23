@@ -1,1 +1,1 @@
-worker: python3 -m picthon
+worker: python3 -m pic
